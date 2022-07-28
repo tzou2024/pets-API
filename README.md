@@ -179,3 +179,12 @@ Response:
 ```md
 HTTP/1.1 204 No Content
 ```
+
+### Pets Routes
+
+| Verb   | URI Pattern            | Controller#Action |
+|--------|------------------------|-------------------|
+| POST   | `/sign-up`             | `users#signup`    |
+| POST   | `/sign-in`             | `users#signin`    |
+| PATCH  | `/change-password/` | `users#changepw`  |
+| DELETE | `/sign-out/`        | `users#signout`   |
